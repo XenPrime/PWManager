@@ -1,5 +1,3 @@
-# PWManager
-
 # Password Manager
 
 A secure, offline password manager built with Electron and React. This application allows you to generate, store, and manage your passwords locally with encryption.
@@ -21,6 +19,39 @@ A secure, offline password manager built with Electron and React. This applicati
 - Node.js (v14 or higher)
 - npm (v6 or higher)
 
+### Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/password-manager.git
+   cd password-manager
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. In a new terminal, start Electron:
+   ```bash
+   npm run electron:dev
+   ```
+
+### Building
+
+To create a portable executable:
+
+```bash
+npm run build
+npm run electron:build
+```
+
+The executable will be created in the `dist_electron` directory.
 
 ## Security
 
@@ -31,4 +62,4 @@ A secure, offline password manager built with Electron and React. This applicati
 
 ## License
 
-MIT License - feel free to use and modify for your own projects.
+MIT License - feel free to use and modify for your own projects. 
